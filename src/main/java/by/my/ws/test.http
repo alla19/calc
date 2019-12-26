@@ -1,0 +1,18 @@
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+name=test&login=testlog&age=22&pass=12345678
+
+###
+
+POST http://localhost:8080/auth
+Content-Type: application/x-www-form-urlencoded
+
+login=testlog&pass=12345678
+
+###
+
+GET http://localhost:8080/main?num1=56&num2=3&operation=sum
+
+###
+
